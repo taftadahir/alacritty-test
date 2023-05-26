@@ -6,7 +6,7 @@ env:
 # https://github.com/alacritty/alacritty-theme/tree/master/themes
 # after_glow, ayu_dark, ayu_mirage, catppuccin_frappe, catppuccin_macchito, catppuccin_mocha, cobalt2, cyberpunk_neon, dracula, dragon_red, gruvbox, hyper, iceberg, material_theme, monokai_pro, new_moon, night_owl, nord, oceanic_next, one_dark, palenight, papercolor_dark, pop_os, snazzy, solarized_dark, substrata, tokyo_night_storm, tokyo_night, tomorrow_night
 import:
-  - ~/.config/alacritty/themes/solarized_dark.yml 
+  - ~/.config/alacritty/themes/gruvbox.yml 
 
 window:
   dimensions:
@@ -17,7 +17,7 @@ window:
     y: 0
   decorations: none # full, none
   opacity: 1.0
-  startup_mode: Windowed # Windowed, Maximized, Fullscreen
+  startup_mode: Maximized # Windowed, Maximized, Fullscreen
   title: Alacritty
 
 scrolling:
